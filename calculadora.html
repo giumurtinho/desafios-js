@@ -1,0 +1,18 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulalinha() {
+        document.write("<br>");
+    }
+    function mostra(frase) {
+        document.write(frase);
+        pulalinha();
+    }
+
+    var projetosAtivos = parseInt(prompt("Insira o número de projetos ativos na scan."));
+    var projetosFinalizados = parseInt(prompt("Insira o número de projetos finalizados na scan."));
+    var somaProjetos = projetosAtivos + projetosFinalizados;
+
+    mostra("O número total de projetos na scan é " + somaProjetos );
+</script>
